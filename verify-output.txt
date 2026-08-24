@@ -1,0 +1,45 @@
+使用 readelf：/Users/admin/Documents/Program/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-readelf
+
+==== 校验 ABI：arm64-v8a ====
+PASS arm64-v8a/libavcodec.so 存在
+PASS arm64-v8a/libavcodec.so：LOAD 段对齐合规（0x4000 0x4000 0x4000 0x4000 )
+PASS arm64-v8a/libavformat.so 存在
+PASS arm64-v8a/libavformat.so：LOAD 段对齐合规（0x4000 0x4000 0x4000 0x4000 )
+PASS arm64-v8a/libavfilter.so 存在
+PASS arm64-v8a/libavfilter.so：LOAD 段对齐合规（0x4000 0x4000 0x4000 )
+PASS arm64-v8a/libavutil.so 存在
+PASS arm64-v8a/libavutil.so：LOAD 段对齐合规（0x4000 0x4000 0x4000 0x4000 )
+PASS arm64-v8a/libswresample.so 存在
+PASS arm64-v8a/libswresample.so：LOAD 段对齐合规（0x4000 0x4000 0x4000 )
+PASS arm64-v8a/libswscale.so 存在
+PASS arm64-v8a/libswscale.so：LOAD 段对齐合规（0x4000 0x4000 0x4000 0x4000 )
+
+==== 校验 ABI：armeabi-v7a ====
+PASS armeabi-v7a/libavcodec.so 存在
+PASS armeabi-v7a/libavcodec.so：LOAD 段对齐合规（0x4000 0x4000 0x4000 0x4000 )
+PASS armeabi-v7a/libavformat.so 存在
+PASS armeabi-v7a/libavformat.so：LOAD 段对齐合规（0x4000 0x4000 0x4000 0x4000 )
+PASS armeabi-v7a/libavfilter.so 存在
+PASS armeabi-v7a/libavfilter.so：LOAD 段对齐合规（0x4000 0x4000 0x4000 )
+PASS armeabi-v7a/libavutil.so 存在
+PASS armeabi-v7a/libavutil.so：LOAD 段对齐合规（0x4000 0x4000 0x4000 0x4000 )
+PASS armeabi-v7a/libswresample.so 存在
+PASS armeabi-v7a/libswresample.so：LOAD 段对齐合规（0x4000 0x4000 0x4000 )
+PASS armeabi-v7a/libswscale.so 存在
+PASS armeabi-v7a/libswscale.so：LOAD 段对齐合规（0x4000 0x4000 0x4000 0x4000 )
+
+==== 校验 ABI：x86_64 ====
+PASS x86_64/libavcodec.so 存在
+PASS x86_64/libavcodec.so：LOAD 段对齐合规（0x4000 0x4000 0x4000 0x4000 )
+PASS x86_64/libavformat.so 存在
+PASS x86_64/libavformat.so：LOAD 段对齐合规（0x4000 0x4000 0x4000 0x4000 )
+PASS x86_64/libavfilter.so 存在
+PASS x86_64/libavfilter.so：LOAD 段对齐合规（0x4000 0x4000 0x4000 )
+PASS x86_64/libavutil.so 存在
+PASS x86_64/libavutil.so：LOAD 段对齐合规（0x4000 0x4000 0x4000 0x4000 )
+PASS x86_64/libswresample.so 存在
+PASS x86_64/libswresample.so：LOAD 段对齐合规（0x4000 0x4000 0x4000 )
+PASS x86_64/libswscale.so 存在
+PASS x86_64/libswscale.so：LOAD 段对齐合规（0x4000 0x4000 0x4000 0x4000 )
+
+==== 全部校验通过 ====

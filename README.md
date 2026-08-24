@@ -57,6 +57,14 @@ when available:
 - `x86_64.config.log`
 - `verify-output.txt`
 
+The current repository also keeps `verify-output.txt` for the checked-in app
+FFmpeg binaries. It verifies that the six required `libav*.so` / `libsw*.so`
+libraries exist for all three ABIs and that their LOAD segments are aligned for
+16 KB page-size devices.
+
+The per-ABI `config.log` files are not recoverable from compiled `.so` files.
+Regenerate and publish them whenever FFmpeg is rebuilt from source.
+
 Compiled binaries are intentionally not committed to Git.
 
 ## Build

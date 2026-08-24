@@ -10,3 +10,12 @@ matching app release:
 These logs are useful for confirming the exact configure flags and checking that
 the FFmpeg license line remains LGPL, with no `--enable-gpl` or
 `--enable-nonfree`.
+
+They cannot be reconstructed from already compiled `.so` files. Keep them from
+the FFmpeg source tree immediately after each ABI build:
+
+```bash
+cp "$FFMPEG_SRC/ffbuild/config.log" configs/arm64-v8a.config.log
+```
+
+Repeat the copy after each ABI build, using the matching destination filename.
