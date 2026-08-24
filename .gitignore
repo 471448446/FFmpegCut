@@ -1,0 +1,14 @@
+# Build output and large release assets should be uploaded to GitHub Releases.
+/build/
+/out/
+/dist/
+/ffmpeg-*/
+*.tar
+*.tar.*
+*.zip
+*.so
+*.a
+*.o
+
+# Local tool files.
+.DS_Store
