@@ -40,16 +40,24 @@ feature subset only.
 
 ## Source Archive and Config Logs
 
-The corresponding FFmpeg source archive and per-ABI configure logs should be
-attached to the GitHub Release that matches the app build, for example:
+The corresponding upstream FFmpeg source is available from the official FFmpeg
+release archive:
 
-- `ffmpeg-n7.1.5.tar.xz`
+- https://ffmpeg.org/releases/ffmpeg-7.1.5.tar.xz
+
+The source archive is intentionally not committed to this repository. If the
+official archive becomes unavailable, publish the same source archive as a
+GitHub Release asset for the matching app build.
+
+Small build evidence files should be attached to the matching GitHub Release
+when available:
+
 - `arm64-v8a.config.log`
 - `armeabi-v7a.config.log`
 - `x86_64.config.log`
 - `verify-output.txt`
 
-Large archives and compiled binaries are intentionally not committed to Git.
+Compiled binaries are intentionally not committed to Git.
 
 ## Build
 
